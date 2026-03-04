@@ -1,0 +1,68 @@
+# -----------------------------
+# Terraform
+# -----------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# Terraform variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# -----------------------------
+# AWS credentials
+# -----------------------------
+.aws/
+credentials
+config
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Python cache (if app uses python)
+# -----------------------------
+__pycache__/
+*.pyc
+
+# -----------------------------
+# Node modules (if using Node)
+# -----------------------------
+node_modules/
+
+# -----------------------------
+# Docker
+# -----------------------------
+*.log
+docker-data/
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# IDE files
+# -----------------------------
+.idea/
+
+# -----------------------------
+# Temporary files
+# -----------------------------
+*.tmp
+*.swp
